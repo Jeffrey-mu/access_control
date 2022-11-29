@@ -21,6 +21,7 @@ public class Main {
         @Override
         protected String buildDefaultBeanName(BeanDefinition definition) {
             return definition.getBeanClassName();
+            
         }
     }
 
