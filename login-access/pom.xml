@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hikvision-main</artifactId>
+        <groupId>com.access</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>login-access</artifactId>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>3.0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.examples</groupId>
+            <artifactId>examples</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <artifactId>org.json</artifactId>
+            <groupId>json</groupId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jar/json.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>cc.eguid.FFmpegCommandManager</groupId>
+            <artifactId>cc.eguid.FFmpegCommandManager</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>externalPackages.sun.json</groupId>
+            <artifactId>json</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+</project>
